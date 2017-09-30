@@ -1,5 +1,5 @@
 {
-  "name": "gulp-css-img-sprite",
+  "name": "rain-css-img-sprite",
   "version": "1.0.2",
   "description": "input css file and get new css file & sprite image",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/king-king/gulp-css-img-sprite.git"
+    "url": "git+git@github.com:rainAgain/rain-css-img-sprite.git"
   },
   "keywords": [
     "gulpplugin",
@@ -18,9 +18,9 @@
   "author": "king-king",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/king-king/gulp-css-img-sprite/issues"
+    "url": "https://github.com/rainAgain/rain-css-img-sprite/issues"
   },
-  "homepage": "https://github.com/king-king/gulp-css-img-sprite#readme",
+  "homepage": "https://github.com/rainAgain/rain-css-img-sprite#readme",
   "dependencies": {
     "css-img-sprite": "^1.0.13",
     "gulp-util": "^3.0.8",
