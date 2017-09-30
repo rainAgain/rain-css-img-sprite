@@ -18,7 +18,8 @@ module.exports = function (obj) {
         if (file.isBuffer()) {
             try {
                 file.contents = css_img_sprite.raw(file.contents, {
-                    cssSrc: path.relative(file.cwd, file.path),
+                    // cssSrc: path.relative(file.cwd, file.path),
+                    cssSrc: file.path,
                     cssDesDir: path.dirname(path.join(obj.cssDesDir, file.relative)),
                     imgDesDir: obj.imgDesDir,
                     layout: obj.layout
