@@ -21,8 +21,7 @@ module.exports = function (obj) {
                     cssSrc: path.relative(file.cwd, file.path),
                     cssDesDir: path.dirname(path.join(obj.cssDesDir, file.relative)),
                     imgDesDir: obj.imgDesDir,
-                    layout: obj.layout,
-                    hash: obj.hash
+                    layout: obj.layout
                 });
             } catch (err) {
                 this.emit('error', new PluginError(pluginName, err.toString()));
