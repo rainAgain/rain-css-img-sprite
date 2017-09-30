@@ -5,7 +5,7 @@
 var through = require('through2');
 var gutil = require('gulp-util');
 var PluginError = gutil.PluginError;
-var pluginName = 'gulp-css-img-sprite';
+var pluginName = 'rain-css-img-sprite';
 var css_img_sprite = require('css-img-sprite-rain');
 var path = require('path');
 
