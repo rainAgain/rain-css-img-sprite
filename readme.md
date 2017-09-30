@@ -7,6 +7,13 @@
 1. [How To Write JS](#How_To_Write_JS)
 1. [Example](#Example)
 
+## 此版本
+
+只是修改了 `var css_img_sprite = require('css-img-sprite-rain');`
+
+## frok
+
+forked from [king-king/gulp-css-img-sprite](https://github.com/king-king/gulp-css-img-sprite)
 
 # <a name="Install">Install</a>
 > npm install css-img-sprite
